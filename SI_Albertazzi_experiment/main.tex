@@ -416,22 +416,22 @@ allows to evidence various structures that may arise in the radiographs dependin
 \end{tabular}}
 \caption{\label{fig:radiosup}  
 %\textcolor{red}{verifier les parametres, refaire les figures (?)}
-Modeled radiographs using the low resitivity PIC MHD simulation results  with superimposed filaments extending in the z direction.
+Modeled radiographs using the modeled electromagnetic field profiles of the filaments extending in the z direction.
 The Lorentz force around the  filaments  are given by Eqs. (6) and (7) of the main paper with $L_p = 48 \, \mu$m, $B_0= 10$ T and $a = 60\, \mu$m, placed on one side of the target.
 The minimum distance between each filament of same magnetic polarity is $ \lambda_p =100\, \mu$m  (a), $ \lambda_p =120\, \mu$m  (b) and $ \lambda_p =200\, \mu$m   (c).
 All scales are on the detector plane.
 }
 \end{figure}
 For  $ \lambda_p =100\, \mu$m [see Fig. \ref{fig:radiosup}(a)]  dark spots and dark lines  may be seen. As  $ \lambda_p$ increases from $120\, \mu$m  to   $ 200\, \mu$m, the dark lines disappear living only dark spots [see Fig. \ref{fig:radiosup}(b)], which, in turn, leave place to dark spot surrounded by white loops [see Fig. \ref{fig:radiosup}(c)]. Qualitatively similar structures can be seen in the simulated radiographs shown in Figs. 2(a,b,c) of the main paper at various times and positions. 
-The radiographs at $t =20$ ps  [Fig. 2(c) of the main paper] presents more dark spots surrounded by white loops than at $t= 13.5$ ps  [Fig. 2(b)],  which, as suggested by Figs. \ref{fig:radiosup}(b,c), is qualitatively consistent with  an increase of the magnetic wavelength caused by the plasma expansion and therefore a decreasing electron density.
+The radiographs at $t =20$ ps  [Fig. 2(c) of the main paper] presents more dark spots surrounded by white loops than at $t= 13.5$ ps  [Fig. 2(b)],  which, as suggested by Figs. \ref{fig:radiosup}(b,c), is qualitatively consistent with an increase of the magnetic wavelength due to a decrease of the hot electrons density and caused by a dilution of the expanding plasma plume at late times.
 
 A few hundreds of microns away from the irradiated region, the target is likely to expand on the front and the rear side. 
 For thin enough targets like in our case, one may expect both expansion to behave similarly, so that the  Weibel-induced electric and magnetic fields should develop with comparable wavelength and field amplitudes. 
-In order to explore the contribution of both  sides of the target on the proton radiographs, we have performed ILZ simulations with two  sets of electromagnetic filaments shifted trans
+In order to explore the contribution of both  sides of the target on the proton radiographs, we have performed ILZ simulations with two  sets of electromagnetic filaments placed on each side of the target (\emph{i.e.} separated in the $x$ direction by \textcolor{red}{three} microns).
 To the best of our knowledge, no constrains on the relative position of the filaments on the two sides of the target can be found. 
-Figures \ref{fig:radiosup2}(a) a case where the electric and magnetic fields of the two expanding region, separated by the three microns-thickness of the foil,  are shifted from half a magnetic wavelength on the $y$ direction. The horizontal lines that appears on the simulated RCF are the consequence of the focusing filaments that become aligned when projected on the detector.
-Interestingly, when the field pattern are shifted by a full wavelength (so that the magnetic field loops are anti-aligned), like in  Fig. \ref{fig:radiosup2}(b),  dark points can be seen. In this case, the magnetic field contribution from both sides of the target cancel each other and the dominant deflecting field for the probing protons is the  electrostatic field that is always focusing.
- 
+Figure \ref{fig:radiosup2}(a) illustrate a case where the electric and magnetic fields of the two expanding region are shifted from half a magnetic wavelength on the $y$ direction. The horizontal lines appearing on the simulated RCF are the consequence of the focusing filaments which become aligned when projected on the detector.
+Interestingly, when the field pattern are shifted by a full wavelength (so that the magnetic field loops are anti-aligned on each side of the target), as in Fig. \ref{fig:radiosup2}(b), dark points can be seen. In this case, the magnetic field contribution from both sides of the target cancel each other and the proton dose variation mainly results from the electric field. 
+
 \begin{figure}[ht]
 \centerline{\begin{tabular}{cc}
 (a) & (b)   \\
@@ -446,22 +446,6 @@ The fields have the same parameters than in Fig. \ref{fig:rcf_supp}(b), with the
 The electric and magnetic field profiles have been shifted by half a wavelength for (a) and by a full wavelength in (b), so that the magnetic field loops are anti-aligned from one side of the target to the other.
 }
 \end{figure}
-
-%\section{Alternative scenarios}
-%Other possible scenarios which may explain these structures will be here ruled out. 
-%\subsection{Weibel in dense part of the irradiated region}
-%One simple explanation would be that the proton deflections are due to the well-known electron current-filamentation instability arising in the solid target close to the high-intensity focal spot \cite[]{PRL_Sentoku_2003}. The probing protons  would then be subject to the small-scale B-fields generated close to the laser-irradiated region before being deflected by the large-scale surface Biermann-Battery B-field.  
-%However, the size of the measured loop structures ($\sim 100 \,\mu\mathrm{m}$) is not consistent with the typical scale of the involved $B$-field close to the dense plasma electron skin-depth $c/\omega_{pe}\simeq 0.5\,\mu$m where $\omega_{pe}=(n_e e^{2}/m_e\epsilon_0)^{1/2}$ is the electron plasma frequency ($n_e$, $m_e$ are the electron density and mass respectively; $e$ and $\epsilon_0$ are the electron charge and vacuum permittivity respectively).
-%Here we used $n_e \simeq 180 \times 10^{21}\,\mathrm{cm}^{-3}$ for the electron density of the Al$^{3+}$ target ($Z*=3$ corresponds to the ionization state at moderate temperatures $\gtrsim 10\,\mathrm{eV}$). 
-%In addition, the resolution of the diagnostic is limited by the proton source size of a few microns which prevents the detection of such small scale B-field structures  \cite[]{POP_Fuchs_2007}.  All this invalidates this first scenario.
-%
-%\subsection{Filamentation in the expanding plasma close to the focal spot}
-%The typical length of the observed loops, much larger than the dense plasma electron-skin depth, may suggest another scenario where the instability takes place in the under-dense part of the expanding plasma on each side of the target, where the plasma skin-depth is much larger. However, the observed filaments are located several $100\,\mu\mathrm{m}$ away from  the irradiated area, where little expansion is expected to take place as was measured in a previous experiment at similar laser intensities \cite[]{PRL_Antici_2008}.
-%Moreover, the proton radiographs evidence a planar and regular distribution of the observed structures, which contradicts a 3D spreading of the filaments in the under-dense plasma plume.
-%
-%\subsection{Weibel instability induced by the probing protons through the Al foil}
-%The time spent by the probing protons through the Al foil, $\delta t \simeq 3 \, \mu\mathrm{m} / v_i  \lesssim 200\,\mathrm{fs}$ (for $\gtrsim 4\,\mathrm{MeV}$ protons), is more than an order of magnitude smaller than the typical growth time of the current filamentation instability between the probing protons and the Al target of $\Gamma^{-1}\simeq \omega_{pi}^{-1} c/v_i\gtrsim 5$ ps (for a proton density $\lesssim 10^{19}\,\mathrm{cm}^{-3}$). 
-%Moreover, the radiographs obtained without irradiation of the Al foil do no present any proton deflections. Hence, the probing protons alone cannot trigger any electromagnetic instability while they cross the Al target.
 
 
 \begin{thebibliography}{10}
